@@ -1,0 +1,49 @@
+/* banner starts here  */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.flower{
+height: 100vh;
+align-items: end;
+}
+.banner-main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    background-color:rgb(251, 223, 229);
+   
+}
+.title{
+    color: #272727;
+font-family: Lato;
+font-size: 80px;
+font-weight: 800;
+margin-bottom: 32px;
+}
+.detail{
+    color: rgba(39, 39, 39, 0.60);
+font-family: Lato;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+margin-bottom: 32px;
+}
+.btn{
+    display: inline-flex;
+padding: 20px 43px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 8px;
+background-color: Transparent;
+border: none;
+cursor: pointer;
+color: rgb(6, 6, 6);
+border: 2px solid #E55473;
+}
+.btn:hover{
+    background-color:#E55473;
+}
+/* banner ends here  */
+
