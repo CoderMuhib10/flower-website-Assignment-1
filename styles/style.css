@@ -3,6 +3,8 @@
   margin: 0px;
   padding: 0px;
 }
+
+
 .flower {
   height: 100vh;
   align-items: end;
@@ -38,7 +40,7 @@
   background-color: Transparent;
   border: none;
   cursor: pointer;
-  color: rgb(6, 6, 6);
+  color: rgb(0, 0, 0);
   border: 2px solid #e55473;
 }
 .btn:hover {
@@ -127,5 +129,54 @@ cursor: pointer;
 /* .flower-name:hover{
     text-decoration-line: underline;
 } */
+
 /* featured section ends here  */
 
+.service{
+    
+height: 300px;
+border-radius: 8px;
+background: hsla(0, 1%, 39%, 0.05);
+margin: 128px 28px 128px 28px;
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+}
+.icon{
+  margin-top: 86px;
+  margin-bottom: 146px;
+
+}
+.icon1{
+  margin-right: 200px;
+}
+.icon2{
+  margin-left: 200px;
+}
+.icon3{
+  margin-left: 280px;
+
+}
+.benefit{
+  color: rgba(39, 39, 39, 0.80);
+text-align: center;
+font-family: Lato;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 35px;
+margin: 0;
+}
+.service-text{
+  display: flex;
+justify-content: space-evenly;
+position: absolute;
+bottom: 0;
+
+width: 100%;
+text-align:center;
+margin-bottom: 87px;
+margin-right: 55px;
+}
+/* Service section ends here  */
