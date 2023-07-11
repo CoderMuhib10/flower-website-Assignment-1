@@ -101,31 +101,32 @@
 }
 /* Navigation Ends Here */
 
+/* banner starts here  */
 .flower {
   height: 100vh;
-  align-items: end;
+  width: 500px;
 }
 .banner-main {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-around;                            
   align-items: center;
-  height: 100vh;
+  padding: 60px 140px 0;
   background-color: rgb(251, 223, 229);
 }
 .title {
   color: #272727;
   font-family: Lato;
-  font-size: 80px;
+  font-size: 63px;
   font-weight: 800;
   margin-bottom: 32px;
 }
 .detail {
   color: rgba(39, 39, 39, 0.6);
   font-family: Lato;
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 400;
   line-height: 30px;
-  margin-bottom: 32px;
+  margin-bottom: 22px;
 }
 .btn {
   display: inline-flex;
@@ -170,37 +171,41 @@
 }
 .bg-main {
   display: flex;
-  justify-content: space-around;
+  justify-content:center ;
+  margin-top: 40px;
 }
 .bg-1 {
-  width: 400px;
-  height: 480px;
-  border-radius: 300px 300px 0px 0px;
+  width: 303px;
+  height: 360px;
+  border-radius: 2000px 2000px 0px 0px;
   background: rgba(192, 13, 99, 0.282);
+
 }
 .bg-2 {
-  width: 400px;
-  height: 480px;
-  border-radius: 300px 300px 0px 0px;
+  width: 303px;
+  height: 360px;
+  border-radius: 2000px 2000px 0px 0px;
   background: rgba(205, 7, 23, 0.434);
+  margin-left: 25px;
 }
 .bg-3 {
-  width: 400px;
-  height: 480px;
-  border-radius: 300px 300px 0px 0px;
+  width: 303px;
+  height: 360px;
+  border-radius: 2000px 2000px 0px 0px;
   background: rgba(25, 207, 80, 0.289);
+  margin-left: 25px;
 }
 .purple-tulip {
-  width: 310px;
-  height: 428px;
+  height: 310px;
+
 }
 .flower-bouquet {
-  width: 370px;
-  height: 370px;
+  
+  height: 310px;
 }
 .yellow-tulip {
-  width: 314px;
-  height: 471px;
+  
+  height: 310px;
 }
 .bg-1,
 .bg-2,
@@ -211,19 +216,45 @@
 }
 .flower-names {
   display: flex;
-  justify-content: space-around;
+  justify-content:center;
   margin-top: 32px;
+  text-align: center;
+  margin-bottom: 100px;
 }
-.flower-name {
+.flower-1 {
   color: #272727;
   text-align: center;
   font-family: Lato;
   font-size: 24px;
-  font-style: normal;
   font-weight: 700;
   line-height: 35px;
   text-decoration-line: underline;
   cursor: pointer;
+  position: relative;
+  right: 180px;
+}
+.flower-2 {
+  color: #272727;
+  text-align: center;
+  font-family: Lato;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 35px;
+  text-decoration-line: underline;
+  cursor: pointer;
+  position: relative;
+}
+.flower-3 {
+  color: #272727;
+  text-align: center;
+  font-family: Lato;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 35px;
+  text-decoration-line: underline;
+  cursor: pointer;
+  position: relative;
+  left: 180px;
 }
 /* .flower-name:hover{
     text-decoration-line: underline;
@@ -231,55 +262,11 @@
 
 /* featured section ends here  */
 
-.service {
-  height: 300px;
-  border-radius: 8px;
-  background: hsla(0, 1%, 39%, 0.05);
-  margin: 128px 28px 128px 28px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-}
-.icon {
-  margin-top: 86px;
-  margin-bottom: 146px;
-}
-.icon1 {
-  margin-right: 200px;
-}
-.icon2 {
-  margin-left: 200px;
-}
-.icon3 {
-  margin-left: 280px;
-}
-.benefit {
-  color: rgba(39, 39, 39, 0.8);
-  text-align: center;
-  font-family: Lato;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 35px;
-  margin: 0;
-}
-.service-text {
-  display: flex;
-  justify-content: space-evenly;
-  position: absolute;
-  bottom: 0;
 
-  width: 100%;
-  text-align: center;
-  margin-bottom: 87px;
-  margin-right: 55px;
-}
-/* Service section ends here  */
 
 /* Offer section starts here */
 .offer {
-  height: 620px;
+  height: 500px;
   background: rgba(229, 84, 115, 0.1);
   display: flex;
   justify-content: space-around;
