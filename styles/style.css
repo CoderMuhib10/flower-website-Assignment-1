@@ -8,11 +8,13 @@
   outline: none;
   border: none;
 }
-.heading, .title-2, .title-3{
+.heading,
+.title-2,
+.title-3 {
   font-size: 64px;
-  background-color: rgb(255, 244, 250);
+  background-color: rgb(251 223 229);
   text-align: center;
-  color: rgb(39,39,39);
+  color: rgb(39, 39, 39);
   padding: 16px;
   margin: 32px 0px;
   font-family: Lato;
@@ -47,7 +49,7 @@
   text-decoration: none;
 }
 .header .logo span {
-  color: #e55473;
+  color: #E55473;
 }
 .header .nav-bar a {
   font-size: 32px;
@@ -151,7 +153,7 @@
   font-size: 40px;
   margin-top: 122px;
 }
-.pink{
+.pink {
   color: #e55473;
 }
 .detail-2 {
@@ -351,20 +353,18 @@
   display: flex;
   justify-content: center;
   gap: 24px;
-
-  
 }
 
 .instagram-image img {
-  max-width: 5000%; 
+  max-width: 5000%;
   height: auto;
   border-radius: 5px;
   width: 1440px;
 }
-.flower1{
+.flower1 {
   margin-left: 28px;
 }
-.flower3{
+.flower3 {
   margin-right: 28px;
 }
 /* instagram section ends here  */
@@ -374,10 +374,11 @@
 .heading span {
   color: #e55473;
 }
-.girl{
- max-width: 700px;
- height: auto;
+.girl {
+  max-width: 680px;
+  height: auto;
 }
+
 .contact .row {
   display: flex;
   align-items: center;
@@ -416,3 +417,77 @@
 
 /* contact section ends here */
 
+/* Newsletter section starts here */
+
+.Newsletter {
+  padding: 100px 130px;
+}
+.news-bg {
+  background-image: url("../images/rectangle\ 9.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 80px;
+  border-radius: 5px;
+}
+.news-bg h1 {
+  font-family: Lato;
+  color: #272727;
+  text-align: center;
+  font-family: Lato;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+}
+.input-email {
+  height: 55px;
+  width: 500px;
+  padding: 15px;
+  border: 1px groove;
+  border-radius: 8px;
+  margin-right: 10px;
+}
+.input-email:focus {
+  border-color: #e55473;
+}
+
+/* Newsletter section ends here */
+
+/* Footer section starts here  */
+.finish {
+  width: 100%;
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+  padding: 100px 140px;
+}
+.logo{
+  color: #E55473;
+font-family: Lato;
+font-size: 48px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.half{
+  color: #ffffff;
+}
+.last{
+margin-top: 24px;
+margin-bottom: 34px;
+ color: rgba(255, 255, 255, 0.90);
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+
+}
+.copyright{
+  color: rgba(255, 255, 255, 0.40);
+text-align: center;
+font-family: Lato;
+font-size: 16px;
+font-weight: 400;
+}
+
+/* -----------------------------------Fiiinnnisshhhh!!!!!!------------------------------- */
